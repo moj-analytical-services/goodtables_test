@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "city",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "year",
+            "type": "year",
+            "format": "default"
+        },
+        {
+            "name": "population",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ]
+}

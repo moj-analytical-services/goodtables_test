@@ -5,13 +5,16 @@ channels:
   - conda-forge
 dependencies:
   - cchardet=2.1.4=py37hfc679d8_0
+  - click-default-group=1.2.1=py_0
   - datapackage=1.9.0=py_0
+  - goodtables=2.2.1=py37_0
   - ijson=2.4=py_0
   - jsonlines=1.2.0=py_1
   - jsonpointer=2.0=py_0
   - linear-tsv=1.1.0=py_1
   - openpyxl=2.4.11=py_0
   - rfc3986=1.3.2=py_0
+  - simpleeval=0.9.8=py37h516909a_1
   - tableschema=1.7.0=py_0
   - tabulator=1.24.2=py_0
   - vim=8.1.1343=py37hf8497d5_1
@@ -20,6 +23,8 @@ dependencies:
   - attrs=19.1.0=py37_1
   - backcall=0.1.0=py37_0
   - blas=1.0=mkl
+  - boto3=1.9.199=py_0
+  - botocore=1.12.199=py_0
   - ca-certificates=2019.5.15=1
   - certifi=2019.6.16=py37_1
   - cffi=1.12.3=py37h2e261b9_0
@@ -27,6 +32,7 @@ dependencies:
   - click=7.0=py37_0
   - cryptography=2.7=py37h1ba5d50_0
   - decorator=4.4.0=py37_1
+  - docutils=0.14=py37_0
   - et_xmlfile=1.0.1=py37_0
   - idna=2.8=py37_0
   - intel-openmp=2019.4=243
@@ -36,6 +42,7 @@ dependencies:
   - isodate=0.6.0=py_1
   - jdcal=1.4.1=py_0
   - jedi=0.15.1=py37_0
+  - jmespath=0.9.4=py_0
   - jsonschema=3.0.2=py37_0
   - jupyter_client=5.3.1=py_0
   - jupyter_core=4.5.0=py_0
@@ -71,6 +78,7 @@ dependencies:
   - pyzmq=18.1.0=py37he6710b0_0
   - readline=7.0=h7b6447c_5
   - requests=2.22.0=py37_0
+  - s3transfer=0.2.1=py37_0
   - setuptools=41.0.1=py37_0
   - six=1.12.0=py37_0
   - sqlalchemy=1.3.7=py37h7b6447c_0
