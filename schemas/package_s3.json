@@ -1,0 +1,35 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "s3://alpha-everyone/goodtables_test_data/population_valid.csv",
+            "profile": "tabular-data-resource",
+            "name": "population",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "city",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "year",
+                        "format": "default"
+                    },
+                    {
+                        "name": "population",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

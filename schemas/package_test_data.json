@@ -1,0 +1,60 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "schemas/data/test_data_no_errors.csv",
+            "profile": "tabular-data-resource",
+            "name": "test_data_no_errors",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "myint",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "myfloat",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mychar",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mydate",
+                        "type": "date",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mydatetime",
+                        "type": "datetime",
+                        "format": "%Y-%m-%dT%H:%M:%S"
+                    },
+                    {
+                        "name": "myboolean",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mydouble",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mylong",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
